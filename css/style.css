@@ -1,9 +1,12 @@
+/* variaveis de cores */
+
 :root {
     --cor-primaria: #0a243e;
     --cor-texto: #333;
+    --cor-clara: #f9f9f9;
 
 }
-
+/* reset layout navegador */
 * {
     margin: 0;
     padding: 0;
@@ -14,9 +17,10 @@
 body {
     font-family: 'Segoe UI', sans-serif;
     line-height: 1.6;
-    color: var(--cor-primaria);
+    color: var(--cor-texto);
 }
 
 .cabecalho {
     background-color: var(--cor-primaria);
+    color: var(--cor-clara);
 }
