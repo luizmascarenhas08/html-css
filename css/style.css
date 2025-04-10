@@ -1,0 +1,20 @@
+:root {
+    --cor-primaria: #0a243e;
+    --cor-texto: #333;
+
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: var(--cor-primaria);
+}
