@@ -23,4 +23,31 @@ body {
 .cabecalho {
     background-color: var(--cor-primaria);
     color: var(--cor-clara);
+    padding: 1rem 0;
+}
+
+.logo {
+    width: 150px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cabecalho .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.menu a{
+    color: var(--cor-clara);
+    text-decoration: none;
 }
