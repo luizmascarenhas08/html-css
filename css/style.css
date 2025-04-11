@@ -2,9 +2,11 @@
 
 :root {
     --cor-primaria: #0a243e;
+    --cor-destaque: #e74c3c;
     --cor-texto: #333;
     --cor-clara: #f9f9f9;
     --sombra: 0 3px rgba(0, 0 , 0, 0.1)
+
 
 }
 /* reset layout navegador */
@@ -124,4 +126,8 @@ outras opções para ajuste de elemento)) para ajutar o elemento9no caso, um vid
     margin-bottom: 0.5rem;
     padding-left: 1.5rem;
     position: relative;
+}
+
+.sobre-texto li::before {
+    content: '•';
 }
