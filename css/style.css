@@ -131,3 +131,22 @@ outras opções para ajuste de elemento)) para ajutar o elemento9no caso, um vid
 .sobre-texto li::before {
     content: '•';
 }
+
+.conteudo-conteudo {
+    text-align: center;
+}
+
+.container-conteudo {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.html, .css {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.164);
+    width: 40%;
+    height: -10%;
+    text-align: justify;
+    padding: 2rem;
+}
